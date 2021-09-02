@@ -1,0 +1,70 @@
+{
+  "name": "awesometsproject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@ant-design/react-native": "^4.2.0",
+    "@expo/vector-icons": "^12.0.5",
+    "@react-native-community/cameraroll": "^4.0.4",
+    "@react-native-community/cli-platform-android": "^5.0.1",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-native-community/segmented-control": "^2.2.2",
+    "@react-native-community/slider": "^4.1.6",
+    "@react-native-picker/picker": "^1.16.7",
+    "@react-navigation/bottom-tabs": "^6.0.5",
+    "@react-navigation/native": "^6.0.2",
+    "@react-navigation/stack": "^6.0.7",
+    "expo": "^42.0.3",
+    "expo-font": "^9.2.1",
+    "react": "17.0.2",
+    "react-native": "0.65.1",
+    "react-native-device-info": "^8.3.1",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-pager-view": "^5.4.1",
+    "react-native-reanimated": "^2.3.0-alpha.2",
+    "react-native-root-siblings": "^4.1.1",
+    "react-native-safe-area-context": "^3.3.0",
+    "react-native-screens": "^3.6.0",
+    "react-native-unimodules": "^0.14.6",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/jest": "^26.0.23",
+    "@types/react-native": "^0.64.5",
+    "@types/react-test-renderer": "^16.9.2",
+    "babel-jest": "^26.6.3",
+    "babel-plugin-import": "^1.13.3",
+    "eslint": "^7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.0",
+    "react-native-codegen": "^0.0.7",
+    "react-test-renderer": "17.0.2",
+    "typescript": "^3.8.3"
+  },
+  "resolutions": {
+    "@types/react": "^17"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
